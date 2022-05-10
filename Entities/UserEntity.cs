@@ -9,6 +9,6 @@ public record User
   public string firstName { get; set; }
   public string lastName { get; set; }
 
-  public ICollection<Payment> Payments { get; set; }
+  public ICollection<Payment> payments { get; set; }
   public Currency currency { get; set; }
 }
