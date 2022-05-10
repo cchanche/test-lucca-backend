@@ -11,6 +11,7 @@ public record Currency
 
   public int ID { get; set; } // PK
 
-  public string code { get; set; }
+  // use code as PK with EF decorator ?
+  public Code code { get; set; }
   public string name { get; set; }
 }
